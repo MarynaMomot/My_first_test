@@ -1,90 +1,117 @@
 package Main;
 
 import sun.security.util.Length;
-
 import java.util.*;
-
 import static com.google.common.math.IntMath.pow;
 
-public class Tasks {
+public class Tasks
+{
 
-    public void task1(int result) {
+    public void evenNumber(int result)
+    {
         int a = 4, b = 5, c = 6;
 
-        if (a % 2 == 0) {
+        if (a % 2 == 0)
+        {
             result = a * b / c;
         }
     }
 
-    public void task2(int result) {
+    public void evenNumber2(int result)
+    {
         int a = 7, b = 8, c = 6;
 
-        if ((a + b) % 2 == 0 || (b + c) % 2 == 0) {
+        if ((a + b) % 2 == 0 || (b + c) % 2 == 0)
+        {
             result = pow(a, c);
-        } else {
+        }
+        else
+        {
             result = a + b - c;
         }
     }
 
-    public void task3(int ret) throws Exception {
+    public void coordinateSystem(int ret) throws Exception
+    {
         int x = 0, y = 0, z = 0;
 
-        if (x == 0 || y == 0 || z == 0) {
+        if (x == 0 || y == 0 || z == 0)
+        {
             throw new Exception();
         }
         ret = 0;
 
-        if (x > 0 && y > 0) {
+        if (x > 0 && y > 0)
+        {
             ret = 1;
-        } else if (x < 0 && y > 0) {
+        }
+        else if (x < 0 && y > 0)
+        {
             ret = 2;
-        } else if (x < 0 && y < 0) {
+        }
+        else if (x < 0 && y < 0)
+        {
             ret = 3;
-        } else {
+        }
+        else
+        {
             ret = 4;
         }
     }
 
-    public void facktorial(int fackt) {
+    public void facktorial(int fackt)
+    {
         int ch = 0;
 
-        if (ch > 0) {
-            for (int i = ch; i >= 1; i--) {
+        if (ch > 0)
+        {
+            for (int i = ch; i >= 1; i--)
+            {
                 fackt *= i;
             }
-        } else {
+        }
+        else
+        {
             fackt = -1;
         }
     }
 
-    public void revers(int[] arr) {
+    public void reversMirror(int[] arr)
+    {
         if (arr == null || arr.length == 0)
             return;
 
-        for (int i = 0; i < arr.length / 2; i++) {
+        for (int i = 0; i < arr.length / 2; i++)
+        {
             int tmp = arr[i];
             arr[i] = arr[arr.length - 1 - i];
             arr[arr.length - 1 - i] = tmp;
         }
     }
 
-    public void reversArr() {
+    public void reversArr()
+    {
         int[] arr = {1, 2, 3, 4};
         int hlen = arr.length / 2;
         int cpos = hlen + arr.length % 2;
 
-        for (int i = 0; i < hlen; i++) {
+        for (int i = 0; i < hlen; i++)
+        {
             int t = arr[i];
             arr[i] = arr[cpos + i];
             arr[cpos + i] = t;
         }
     }
 
-    public void bubbleSort(int[] arr) {
-        for (int i = arr.length - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
+    public void bubbleSort(int[] arr)
+    {
+        for (int i = arr.length - 1; i > 0; i--)
+        {
+            for (int j = 0; j < i; j++)
+            {
 
-                if (arr[j] > arr[j + 1]) {
+                if (arr[j] > arr[j + 1])
+                {
                     int tmp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = tmp;
@@ -93,24 +120,28 @@ public class Tasks {
         }
     }
 
-    public void conversionIntToString(String args[]) {
+    public void conversionIntToString(String args[])
+    {
         int i = 200;
         String s = String.valueOf(i);
         System.out.println(i + 100);//300 because + is binary plus operator
         System.out.println(s + 100);//200100 because + is string concatenation operator
     }
 
-    public void conversionDoubleToString(String args[]) {
+    public void conversionDoubleToString(String args[])
+    {
         double a = 44;
         String b = Double.toString(a);
     }
 
-    public void conversionStringToInt() {
+    public void conversionStringToInt()
+    {
         String myString = "123456789";
         int n = Integer.parseInt(myString);
     }
 
-    public void conversionStringToDouble() {
+    public void conversionStringToDouble()
+    {
         String aString = "123,236";
         double b = Double.parseDouble(aString);
     }
