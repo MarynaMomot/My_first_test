@@ -41,39 +41,39 @@ public class Tasks
         {
             ret = 0 ;
         }
-        else if (x==0 || y==0 || z==0)
+        if (x == 0 && y == 0 && z == 0)
         {
             ret=0 ;
         }
-        if (x>0 && y>0 && z<0)
+        if (x > 0 && y > 0 && z < 0)
         {
             ret = 1 ;
         }
-        else  if (x>0 && y>0 && z>0)
+        if (x > 0 && y > 0 && z > 0)
         {
             ret = 2 ;
         }
-        else  if (x<0 && y>0 && z>0)
+        if (x < 0 && y > 0 && z > 0)
         {
             ret = 3 ;
         }
-        else  if (x<0 && y>0 && z<0)
+        if (x < 0 && y > 0 && z < 0)
         {
             ret = 4 ;
         }
-        else  if (x>0 && y<0 && z<0)
+        if (x > 0 && y < 0 && z < 0)
         {
             ret = 5 ;
         }
-        else  if (x>0 && y<0 && z>0)
+        if (x > 0 && y < 0 && z > 0)
         {
             ret = 6 ;
         }
-        else  if (x<0 && y<0 && z>0)
+        if (x < 0 && y < 0 && z > 0)
         {
             ret = 7 ;
         }
-        else if (x<0 && y<0 && z<0)
+        if (x < 0 && y < 0 && z < 0)
         {
             ret = 8 ;
         }
