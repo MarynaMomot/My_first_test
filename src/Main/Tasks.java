@@ -7,7 +7,7 @@ import static com.google.common.math.IntMath.pow;
 public class Tasks
 {
 
-    public void evenNumber(int result)
+    public int evenNumber(int result)
     {
         int a = 4, b = 5, c = 6;
 
@@ -15,9 +15,10 @@ public class Tasks
         {
             result = a * b / c;
         }
+        return result;
     }
 
-    public void evenNumber2(int result)
+    public int evenNumber2(int result)
     {
         int a = 7, b = 8, c = 6;
 
@@ -29,37 +30,58 @@ public class Tasks
         {
             result = a + b - c;
         }
+        return result;
     }
 
-    public void coordinateSystem(int ret) throws Exception
+    public int coordinateSystem(int ret)
     {
         int x = 0, y = 0, z = 0;
 
         if (x == 0 || y == 0 || z == 0)
         {
-            throw new Exception();
+            ret = 0 ;
         }
-        ret = 0;
+        else if (x==0 || y==0 || z==0)
+        {
+            ret=0 ;
+        }
+        if (x>0 && y>0 && z<0)
+        {
+            ret = 1 ;
+        }
+        else  if (x>0 && y>0 && z>0)
+        {
+            ret = 2 ;
+        }
+        else  if (x<0 && y>0 && z>0)
+        {
+            ret = 3 ;
+        }
+        else  if (x<0 && y>0 && z<0)
+        {
+            ret = 4 ;
+        }
+        else  if (x>0 && y<0 && z<0)
+        {
+            ret = 5 ;
+        }
+        else  if (x>0 && y<0 && z>0)
+        {
+            ret = 6 ;
+        }
+        else  if (x<0 && y<0 && z>0)
+        {
+            ret = 7 ;
+        }
+        else if (x<0 && y<0 && z<0)
+        {
+            ret = 8 ;
+        }
 
-        if (x > 0 && y > 0)
-        {
-            ret = 1;
-        }
-        else if (x < 0 && y > 0)
-        {
-            ret = 2;
-        }
-        else if (x < 0 && y < 0)
-        {
-            ret = 3;
-        }
-        else
-        {
-            ret = 4;
-        }
+        return ret;
     }
 
-    public void facktorial(int fackt)
+    public int facktorial(int fackt)
     {
         int ch = 0;
 
@@ -74,6 +96,7 @@ public class Tasks
         {
             fackt = -1;
         }
+        return fackt;
     }
 
     public void reversMirror(int[] arr)
