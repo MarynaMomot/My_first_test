@@ -190,10 +190,12 @@ public class Tasks
 
         int count = 0;
 
-        if(input.length() != 0){
+        if(input.length() != 0)
+        {
             count++;
 
-            for (int i = 0; i < input.length(); i++) {
+            for (int i = 0; i < input.length(); i++)
+            {
                 if(input.charAt(i) == ' '){
                     count++;
                 }
