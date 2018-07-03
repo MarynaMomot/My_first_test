@@ -15,7 +15,7 @@
       <file leaf-file-name="Tasks.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/Tasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1508">
+            <state relative-caret-position="39">
               <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="POM.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/POM.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="17" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,9 +61,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="24" />
-    <option name="y" value="59" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="22" />
+    <option name="y" value="93" />
     <option name="width" value="1346" />
     <option name="height" value="666" />
   </component>
@@ -229,15 +229,15 @@
       <updated>1530457663130</updated>
       <workItem from="1530457667367" duration="3461000" />
       <workItem from="1530461985653" duration="12484000" />
-      <workItem from="1530648477716" duration="4216000" />
+      <workItem from="1530648477716" duration="6417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20161000" />
+    <option name="totallyTimeSpent" value="22362000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -312,15 +312,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/POM.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Tasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1508">
+        <state relative-caret-position="39">
           <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
